@@ -1,0 +1,10 @@
+com/dekalabs/testmercadona/enterprise/databinding/ContentMainBinding.java
+ com.dekalabs.testmercadona.enterprise.databinding.ContentMainBinding
+com/dekalabs/testmercadona/enterprise/BuildConfig.java
+ com.dekalabs.testmercadona.enterprise.BuildConfig
+com/dekalabs/testmercadona/enterprise/databinding/FragmentSecondBinding.java
+ com.dekalabs.testmercadona.enterprise.databinding.FragmentSecondBinding
+com/dekalabs/testmercadona/enterprise/databinding/ActivityMainBinding.java
+ com.dekalabs.testmercadona.enterprise.databinding.ActivityMainBinding
+com/dekalabs/testmercadona/enterprise/databinding/FragmentFirstBinding.java
+ com.dekalabs.testmercadona.enterprise.databinding.FragmentFirstBinding
