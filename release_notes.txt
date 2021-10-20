@@ -1,0 +1,5 @@
+<notes>
+<es-ES>Nueva funcionalidad código</es-ES>
+<en-US>New feature code</en-US>
+<pt-PT>Novo recurso código</pt-PT>
+</notes>
