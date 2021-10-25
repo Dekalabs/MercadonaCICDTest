@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">Mercadona Airwatch Test ITG</string>
+    <string name="app_name">Mercadona Airwatch Test</string>
+    <string name="app_name_itg">Mercadona Airwatch Test ITG</string>
+    <string name="app_name_pre">Mercadona Airwatch Test ITG</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
