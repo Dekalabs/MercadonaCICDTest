@@ -11,8 +11,6 @@ android {
         applicationId "com.mdona.awtest.itg"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 2
-        versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -23,6 +21,35 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    productFlavors {
+        flavorDimensions 'env'
+
+        itg {
+            dimension 'env'
+            versionName "2.0"
+            versionCode 2
+            applicationIdSuffix '.itg'
+            manifestPlaceholders = [applicationLabel: "@string/app_name_itg"]
+
+        }
+        pre {
+            dimension 'env'
+            applicationIdSuffix '.pre'
+            versionName "2.0"
+            versionCode 2
+            manifestPlaceholders = [applicationLabel: "@string/app_name_pre"]
+        }
+
+        pro {
+            dimension 'env'
+            versionName "2.0"
+            versionCode 2
+            manifestPlaceholders = [applicationLabel: "@string/app_name"]
+        }
+
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
